@@ -1,0 +1,15 @@
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\obj\Debug\DigitalWellbeingForWindows.csproj.AssemblyReference.cache
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\obj\Debug\MainWindow.g.cs
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\obj\Debug\App.g.cs
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\obj\Debug\DigitalWellbeingForWindows_MarkupCompile.cache
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\obj\Debug\DigitalWellbeingForWindows_MarkupCompile.lref
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\bin\Debug\DigitalWellbeingForWindows.exe.config
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\bin\Debug\DigitalWellbeingForWindows.exe
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\bin\Debug\DigitalWellbeingForWindows.pdb
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\obj\Debug\MainWindow.baml
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\obj\Debug\DigitalWellbeingForWindows.g.resources
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\obj\Debug\DigitalWellbeingForWindows.Properties.Resources.resources
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\obj\Debug\DigitalWellbeingForWindows.csproj.GenerateResource.cache
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\obj\Debug\DigitalWellbeingForWindows.csproj.CoreCompileInputs.cache
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\obj\Debug\DigitalWellbeingForWindows.exe
+C:\Users\ikuto\Chamoy\Proyectos Personales\En desarrollo\DigitalWellbeingForWindows\DigitalWellbeingForWindows\obj\Debug\DigitalWellbeingForWindows.pdb

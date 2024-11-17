@@ -13,20 +13,41 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Management;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
+using System.Windows.Threading;
+
+
 
 namespace DigitalWellbeingForWindows
 {
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
     /// </summary>
+
+    
     public partial class MainWindow : Window
     {
+        private DispatcherTimer timer;
+
+        [DllImport("user32.dll")]
+        private static extern IntPtr GetForegroundWindow();
+
+        [DllImport("user32.dll")]
+        private static extern uint GetWindowThreadProcessId( IntPtr hWnd, out uint pdwProcessId);
         public MainWindow()
         {
             InitializeComponent();
-            MostrarProcesosActivos();
-        }
+            //MostrarProcesosActivos();
+            timer = new DispatcherTimer
+            {
+                Interval = TimeSpan.FromSeconds(2),
+            };
+            timer.Tick += (s,e) => ObtenerProcesoEnPrimerPlano();
+            timer.Start();
 
+
+        }
 
         private void MostrarProcesosActivos()
         {
@@ -51,6 +72,28 @@ namespace DigitalWellbeingForWindows
             catch (Exception ex)
             {
                 MessageBox.Show($"Error al obtener procesos: {ex.Message}");
+            }
+        }
+
+        private void ObtenerProcesoEnPrimerPlano()
+        {
+            try
+            {
+                // Obtiene el identificador de la ventana activa
+                IntPtr hwnd = GetForegroundWindow();
+
+                // Obtiene el ID del proceso asociado
+                GetWindowThreadProcessId(hwnd, out uint processId);
+
+                // Obtiene el proceso por ID
+                Process proceso = Process.GetProcessById((int)processId);
+
+                // Muestra el nombre del proceso en un MessageBox
+                txtProcesoActivo.Text = $"Proceso en primer plano: {proceso.ProcessName}";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al obtener el proceso en primer plano: {ex.Message}");
             }
         }
     }
